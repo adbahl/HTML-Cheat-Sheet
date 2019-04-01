@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>HTML Cheat Sheet</title>
+	</head>
+	<a href = "blog.html">Go to blog</a>
+	<body>
+		<!--Headings-->
+		<h1>Heading one</h1>
+		<h2>Heading two</h2>
+		<h3>Heading three</h3>
+		<h4>Heading four</h4>
+		<h5>Heading five</h5>
+		<h6>Heading six</h6>
+
+		<!--Paragraph, strong, em, href and target-->
+		<p>
+			Lorem ipsum non aptent nunc fames purus leo potenti sollicitudin, euismod tristique litora congue <strong>vitae non sagittis </strong>nulla neque sagittis, donec ultrices habitasse quam justo mauris ullamcorper sapien mi egestas platea <em>luctus adipiscing </em>pellentesque.Ut lorem faucibus suscipit consectetur mollis massa class, aenean pulvinar euismod et tincidunt non et, habitasse taciti ante habitasse duis malesuada.Justo vitae amet neque tortor praesent nostra, ut luctus netus id sagittis curabitur, dapibus quisque eleifend pretium vulputate amet lectus himenaeos lacinia dolor porttitor nunc nullam ornare nisi mi aenean.
+		</p>
+		<p>
+			Lorem ipsum non aptent nunc fames purus leo potenti sollicitudin, euismod tristique litora congue vitae non <a href ="http://google.com" target = "_blank">sagittis </a> nulla neque sagittis, donec ultrices habitasse quam justo mauris ullamcorper sapien mi egestas platea luctus adipiscing pellentesque.Ut lorem faucibus suscipit consectetur mollis massa class, aenean pulvinar euismod et tincidunt non et, habitasse taciti ante habitasse duis malesuada.Justo vitae amet neque tortor praesent nostra, ut luctus netus id sagittis curabitur, dapibus quisque eleifend pretium vulputate amet lectus himenaeos lacinia dolor porttitor nunc nullam ornare nisi mi aenean.
+		</p>
+		
+		<!-- Lists (Unordered list)-->
+		<ul>
+			<li>List item one</li>
+			<li>List item two</li>
+			<li>List item three</li>
+			<li>List item four</li>		
+		</ul>
+			<!-- Lists (ordered list)-->
+		<ol>
+			<li>List item one</li>
+			<li>List item two</li>
+			<li>List item three</li>
+			<li>List item four</li>		
+		</ol>
+		
+		<!--Table-->		
+		<table>
+			<!-- Table Heading-->
+			<thead>
+				<!-- Table row-->
+				<tr>
+					<!-- Table heading-->
+					<th>Id</th>
+					<th>Name</th>
+					<th>Email</th>
+					<th>Age</th>									
+				</tr>			
+			</thead>
+			<!-- Table body-->
+			<tbody>
+				<tr>
+					<!-- Table data-->
+					<td>1</td>
+					<td>abc</td>
+					<td>abc@a.com</td>
+					<td>20</td>
+				</tr>
+				<tr>
+					<!-- Table data-->
+					<td>2</td>
+					<td>bbc</td>
+					<td>bbb@a.com</td>
+					<td>21</td>
+				</tr>
+					<tr>
+					<!-- Table data-->
+					<td>3</td>
+					<td>ccd</td>
+					<td>ccd@a.com</td>
+					<td>22</td>
+				</tr>
+			</tbody>		
+		</table>
+		
+		<!--Line break-->
+		<br>
+		<!--Horizontal line -->
+		<hr>
+		<br>
+		
+		<!-- Forms-->
+		<form action ="process.php" method = "POST">
+			<!-- Label and text input-->
+			<div>
+				<label>First Name</label>
+				<input type = "text" name = "firstName" 
+				placeholder = "Enter the first name">
+			</div>
+			<br>
+			<div>
+				<label>Last Name</label>
+				<input type = "text" name = "lastname"
+				placeholder = "Enter the last name">
+			</div>
+			<br>
+			<div>
+				<label>Email</label>
+				<input type = "email" name = "email"
+				placeholder = "Enter the email id">
+			</div>
+			<br>
+			<!-- Message block using text area-->
+			<div>
+				<label>Message</label>
+				<textarea name = "message" placeholder = "Enter the message"></textarea>
+			</div>
+			<br>
+			<!-- drop down using option tag-->
+			<div>
+				<label>Gender</label>
+				<select name = "gender">
+					<option value = "Not Selected">Select Gender</option>
+					<option value = "male">Male</option>
+					<option value = "female">Female</option>
+					<option value = "other">Other</option>				
+				</select>
+			</div>
+			<br>
+			<div>
+				<label>Age:</label>
+				<input type = "number" name = "age" value = "30">			
+			</div>
+			<br>
+			<div>
+				<label>BirthDate</label>
+				<input type = "date" name = "birthdate">
+			</div>	
+			<br>
+			<input type = "submit" name = "submit" value = "Submit">			
+		</form>
+		
+		<br>
+		
+		<!-- Button outside of the form-->
+		<div>
+		<button>Click Me</button>
+		</div>
+		<!-- Images-->
+		<br>
+		<a href = "images/sample.jpeg">
+		<img src = "images/sample.jpeg" alt = "My sample image" width ="200">
+		</a>
+		
+		<br>
+		
+		<!--Quotation-->
+		
+		<blockquote cite = "https://en.wikipedia.org/wiki/Binary_number">
+		In mathematics and digital electronics, a binary number is a number expressed in the base-2 numeral system or binary numeral system, which uses only two symbols: typically "0" (zero) and "1" (one).
+		</blockquote>
+		
+		<p>The <abbr title = "world wide web">WWW</abbr> is awesome</p>
+	
+	</body>
+
+
+</html>
